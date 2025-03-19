@@ -1,0 +1,6 @@
+__pycache__
+dist/
+build/
+*_runner.spec
+package/
+*.tar.gz
