@@ -17,5 +17,7 @@ for stage in {0..3}; do
     cp dist/server_runner package/Stage${stage}/bin
 done
 
+cp requirements.txt package
+
 rm -rf dist/
 rm -rf build/
